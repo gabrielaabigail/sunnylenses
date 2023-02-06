@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#hero{
+	background-image: url("../img/heroimg.jpg");
+	background-size: cover;
+	height: 670px;
+	padding-top: 9%;
+}
+.titulohero{
+	color: #fff;
+	font-size: 65px;
+	text-align: left;
+	padding-bottom: 2%;
+}
+
+.titulohero2{
+	color: #fff;
+	font-size: 65px;
+	text-align: left;
+	font-weight: 400;
+}
+
+#hero h6{
+	color: #fff;
+	font-size: 18px;
+	text-align: left;
+	padding-bottom: 1%;
+}
+
+
+.header-area.sticky {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  z-index: 99999;
+  transition: 0.3s all ease;
+}
+
+header{
+    background-color: #000;
+}
+
+.section{
+	padding:70px 0;
+}
+
+.subtitulo{
+	text-align: left;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 40px;
+}
+
+.titulo{
+	text-align: left;
+	font-size: 50px;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin-bottom: 40px;	
+}
+
+#how{
+	text-align: center;
+	padding-bottom: 10%;
+}
+
+#how h6{
+	font-weight: 500;
+	font-size: 18px;
+	margin: 30px 0px 30px 0px;
+}
+
+#how p{
+	font-weight: 500;
+	font-size: 14px;
+	margin: 2%
+}
+
+.circulo{
+	font-size: 60px;
+	border: solid 1px #000;
+	width: 150px;
+	height: 150px;
+	line-height: 150px;
+	border-radius: 100%;
+	background-color: #000;
+	color: #fff;
+}
+
+
+#moda {
+	background-color: #d3d3d3;
+	padding-top: 4%;
+	padding-bottom: 5%;
+}
+
+#moda h3 {
+	font-weight: 600;
+	font-size: 20px;
+	padding-top: 16%;
+	padding-left: 15%;
+}
+
+.child1{
+	margin-top: -40%;
+}
+
+.child2{
+	margin-top: 30%;
+}
+
+
+#moda h2 {
+	font-weight: 800;
+	font-size: 40px;
+	padding-left: 15%;
+}
+#moda .btn-light{
+	margin-left: 15%;
+}
+#moda p {
+	line-height: 2;
+	padding-left: 15%;
+	font-size: 16px;
+	margin-right: 10%;
+}
+
+.btn-dark {
+	font-size: 12px;
+	font-weight: 100;
+	letter-spacing: 0.2rem;
+}
+
+
+
+#form h3{
+	font-size: 38.5px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 7%;
+	padding-bottom: 2%;
+	padding-left: 5%;
+}
+
+#form label{
+	color: #fff;
+	padding-left: 5%;
+	padding-bottom: 2%;
+}
+
+#form{
+	background-color: #000;
+	padding-bottom: 0%;
+}
+
+#form img{
+	margin-left: 34.7%;
+}
+
+.btn-blanco{
+	color: #fff;
+	background-color: #000;
+	padding-left: 3%;
+	padding-right: 3%;
+	text-align: center;
+	border-radius: 0;
+    margin-left: 5%;
+	font-size: 15px;
+	font-weight: 600;
+	border:solid 1px #FFFFFF;
+	margin-top: 2%;
+}
+
+.btn-light{
+	border-radius: 0;
+	background-color: #000;
+	color: #fff;
+	border: 0;
+}
+
+.form-control{
+	color: #000;
+	padding-left: 5%;
+	border-radius: 0;
+	margin-left: 5%;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+input{
+	padding: 4%;
+	font-size: 10px;
+}
+
+#form button:hover{
+	opacity: 90%;
+	color:darkgrey;
+}
+
+footer li{
+	font-size: 14px;
+	padding-bottom: 3%;
+	color: #000;
+}
+
+footer{
+	padding-top: 2%;
+	margin-bottom: -3%;
+}
+
+footer a{
+	text-decoration-line: none;
+}
+
+footer a:hover{
+	color: dimgrey;
+	opacity: 50%;
+}
+
+#form h4{
+	color: #fff;
+	font-size: 15px;
+	padding-left: 5%;
+	padding-top: 4%;
+	
+}
+
+footer h4{
+	text-align: right;
+	font-weight: 600;
+}
+
+footer i{
+	text-align: left;
+	font-size: 25px;
+	color: #000;
+	padding-bottom: 0px;
+}
+
+footer img{
+	width:300px;
+	padding-bottom: 2%;
+}
+
+#lineafooter{
+	background-color: #000;
+	color: #fff;
+	
+}
+#lineafooter h6{
+	font-size: 9px;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+@media all and (min-width:1200px){
+
+}
+
+@media all and (min-width:768px)and (max-width:1199px){
+	
+}
+
+@media all and (max-width:767px){
+
+.titulohero{
+	font-size: 40px;
+padding-bottom: 3%;
+}
+
+.titulohero2{
+	font-size: 40px;
+	padding-bottom: 3%;
+}
+
+	#hero h6{
+	font-size: 15px;
+	padding-bottom: 2%;
+	padding-top: 3%;
+}
+	#hero{
+		background-size: cover;
+		height: 350px;
+		align-content:flex-start;
+	}
+	
+	.btn-light{
+	font-size: 12px;
+	}
+	
+	#how h6{
+	font-size: 16px;
+	margin-top: 10%;
+	margin-bottom: 4%;
+}
+	.titulo{
+		font-size: 30px;
+		text-align: center;
+	}
+	.subtitulo{
+		font-size: 20px;
+		text-align: center;
+	}
+	
+	#how p{
+	font-size: 12px;
+	margin-top: 0;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 8%;
+}
+	#how{
+	text-align: center;
+	padding-bottom: 30%;
+}
+
+.child1{
+	margin-top: -40%;
+	height: 300px;
+}
+
+.child2{
+	margin-top: 30%;
+}
+
+#moda h3 {
+	font-weight: 600;
+	font-size: 18px;
+	padding-top: 8%;
+	padding-left: 6%;
+}
+
+
+#moda h2 {
+	font-weight: 800;
+	font-size: 35px;
+	padding-left: 6%;
+}
+	#moda p{
+		font-size: 13px;
+		text-align: left;
+		margin-right: 6%;
+		margin-left: 6%;
+		padding: 0%;
+	}
+	#moda .btn-light{
+		margin-left: 6%;
+	}
+
+
+#form h3{
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 5%;
+	padding-bottom: 3%;
+	padding-left: 5%;
+}
+
+#form label{
+	padding-left: 5%;
+	padding-bottom: 2%;
+	font-size: 12px;
+}
+	#form {
+		padding-right: 8%;
+	}
+	
+	#form .btn-blanco{
+		font-size: 14px;
+	}
+
+#form img{
+	margin-left: 0%;
+	margin-top: 8%;
+	align-content: center;
+	padding-left: 8%;
+}
+
+
+
