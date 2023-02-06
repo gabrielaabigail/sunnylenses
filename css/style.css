@@ -265,9 +265,8 @@ footer img{
 	padding-bottom: 2%;
 }
 
-@media all and (min-width:1200px){
+@media screen and (min-width:1024px){
 #hero{
-	background-image: url("../img/heroimg.jpg");
 	background-size: cover;
 	height: 670px;
 	padding-top: 9%;
@@ -377,8 +376,6 @@ header{
 .child2{
 	margin-top: 30%;
 }
-
-
 #moda h2 {
 	font-weight: 800;
 	font-size: 40px;
@@ -399,8 +396,6 @@ header{
 	font-weight: 100;
 	letter-spacing: 0.2rem;
 }
-
-
 
 #form h3{
 	font-size: 38.5px;
@@ -524,11 +519,11 @@ footer img{
 }
 }
 
-@media all and (min-width:768px)and (max-width:1199px){
+@media screen and (min-width:768px)and (max-width:1023px){
 	
 }
 
-@media all and (max-width:767px){
+@media screen and (max-width:767px){
 
 .titulohero{
 	font-size: 40px;
@@ -644,5 +639,5 @@ padding-bottom: 3%;
 	padding-left: 8%;
 }
 
-
+}
 
